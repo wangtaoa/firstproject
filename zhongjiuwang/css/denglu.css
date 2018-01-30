@@ -1,0 +1,75 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{font-family: "微软雅黑";}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input{outline:none;border:0;}
+img{display:block;border:0;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow: hidden;visibility: hidden;}
+.clearfix{zoom:1;}
+
+.left{float:left;}
+.right{float:right;}
+body{background:#f2f2f2;}
+.topcon,.footercon{width:900px;margin:0 auto;}
+/*top*/
+#top{height:136px;}
+.topcon{height:136px;padding-top:;}
+.topcon a{margin:10px 25px 0 5px;}
+h2{width:111px;height:46px;padding-left:15px;font-size:24px;line-height:46px;text-indent:-9999px;
+	background:url(../img/zcjl.png) no-repeat 0 -131px;border-left:1px solid #e3e3e3;margin-top:18px;}
+/*main*/
+#main{height:412px;}
+.maincon{width:888px;height:400px;margin:0 auto;border:6px solid #e8e8e8;}
+.mainR{width:428px;height:400px;background:#fff;}
+.dlType{width:318px;height:54px;margin:0 55px;border-bottom:1px solid #fbfbfb;}
+.dlType span{display:inline-block;width:158px;height:18px;text-align:center;font-size:18px;
+			line-height:18px;margin :18px 0;cursor:pointer;}
+.dlType span:first-child{border-right:1px solid #ccc;color:#e54b54;font-weight:900;}
+
+.count{width:428px;height:274px;padding-top:20px;}
+/*扫码登陆*/
+.ewm{width:159px;height:159px;border:1px solid #f1f1f1;margin:0 auto 17px;}
+.ewm .ewmp{width:100%;height:100%;}
+.smcount p{text-align:center;font-size:12px;line-height:12px;color:#aaa;margin-bottom:16px;}
+.smcount p a{color:#e54b54;}
+.smp{margin:0 auto;}
+
+/*账密登录*/
+.zmcount{width:428px;height:274px;display:none;}
+.zmcon{width:321px;height:220px;margin:0 auto;}
+.tips{width:286px;height:15px;border:1px solid #f6c090;padding:3px 0 3px 30px;
+	background:#fef4e5;font-size:12px;line-height:15px;color:#666;position:relative;}
+.tips i{display:block;width:16px;height:17px; background:url(../img/zmjl.png) no-repeat -104px -133px;
+	position:absolute;left:10px;}
+.zmcon form{width:320px;height:177px;padding-top:10px;}
+#uname,#upwd{width:279px;height:38px;border:1px solid #b8c1c8;padding-left:39px;}
+.p1,.p2{position:relative;}
+.namep{width:38px;height:38px;background:url(../img/zmjl.png) no-repeat;
+		position:absolute;left:1px;top:1px;}
+.pwdp{width:38px;height:38px;background:url(../img/zmjl.png) no-repeat -47px 0;
+		position:absolute;left:1px;top:1px;}
+.p2{margin-top:8px;margin-bottom:17px;}
+.p3{height:12px;font-size:12px;line-height:12px;color:#98999a;margin-bottom:17px;}
+.p3 span,.p3 a{display:block;height:12px;}
+.p3 a{color:#98999a;}
+.p3 a:hover{color:red;text-decoration:underline;}
+#rember{margin-right:12px;}
+#dl{width:320px;height:43px;background:#f6342f;font-size:18px;color:white;}
+
+.dlbottom{width:405px;height:35px;background:#fcfcfc;margin-left:23px;border-top:1px solid #f4f4f4;
+		padding-top:15px;}
+.dlbottom p{height:18px;text-align:center;}
+.dlbottom p i{display:inline-block;width:18px;height:18px;}
+.i1{background:url(../img/xjl.png) no-repeat -21px 0;}
+.i2{background:url(../img/xjl.png) no-repeat;}
+.i3{background:url(../img/xjl.png) no-repeat -40px 0;}
+.dlbottom p a{display:inline-block;font-size:12px;line-height:12px;height:18px;margin:0 10px;color:#333;}
+.dlbottom .lasta{color:#b61d1d;}
+.dlbottom p a:hover{color:#b61d1d;text-decoration:underline;}
+/*footer*/
+.footercon{height:98px;}
+.footercon p{font-size:12px;line-height:12px;text-align:center;padding-top:43px;color:#545454;}

@@ -1,0 +1,69 @@
+@charset "utf-8";
+html,body,ul,li,ol,dl,dd,dt,p,h1,h2,h3,h4,h5,h6,form,fieldset,legend,img,input{margin:0;padding:0}
+body{font-family: "微软雅黑";}
+ul,ol,li{list-style:none;}
+b,strong{font-weight:100;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:100;font-size:16px;}
+a,u{text-decoration: none;}
+input{outline:none;border:0;}
+img{display:block;border:0;}
+.clearfix:after{content:".";clear:both;display:block;height:0;overflow: hidden;visibility: hidden;}
+.clearfix{zoom:1;}
+
+.left{float:left;}
+.right{float:right;}
+.topcon,.logocon,.denglucon,.bottomcon{width:990px;margin:0 auto;}
+body{background:#eef3fa;}
+/*top*/
+#top{height:30px;background:#f7f7f7;border-bottom:1px solid #eee;}
+.topcon{height:30px;}
+.sc i{display:inline-block;width:13px;height:13px;background:url(../img/start.png) no-repeat center;transition:0.4s;}
+.sc a{font-size:12px;color:#666;line-height:30px;}
+.sc:hover i{transform:rotate(360deg);}
+.topcon a:hover{color:red;text-decoration:underline;}
+.topcon p{font-size:12px;color:#666;line-height:30px;}
+.topcon p a{padding:3px;color:#666;}
+/*logo*/
+#logo{height:80px;}
+.logocon{height:80px;}
+.logocon a{margin-top:11px;margin-left:7px;}
+h2{font-size:28px;line-height:28px;color:#545454;padding-top:29px;padding-left:20px;}
+/*denglu*/
+.denglucon{height:32px;background:#f2f2f2;position:relative;}
+.denglucon p{font-size:12px;line-height:20px;color:#666;position:absolute;top:12px;right:13px;}
+.denglucon p a{padding:3px;color:#005aa0;}
+.denglucon p a:hover{text-decoration:underline;}
+/*zhucecon*/
+form{width:988px;height:524px;border:1px solid #ddd;margin:0 auto;font-size:12px;padding-top:68px;background:white;}
+form>div{width:900px;height:69px;}
+form>div>span{display:inline-block;width:190px;height:34px;text-align:right;padding-right:10px;color:#999;line-height:34px;}
+form em{color:#e3393c;margin-right:5px;}
+form>div>div{display:inline-block;width:270px;height:38px;}
+form .i{height:16px;padding:10px 25px 10px 5px;border:1px solid #ccc;}
+
+.phone>div,.pwd>div,.surePwd>div{position:relative;}
+.phone input,.pwd input,.surePwd input{width:238px;height:16px;}
+.yz input{width:100px;height:16px;}
+
+.name{display:block;width:16px;height:16px;background:url(../img/zcjl.png) no-repeat -373px -111px;
+		position:absolute;right:11px;top:7px;z-index:5;}
+
+.pwdi,.surePwdi{display:block;width:14px;height:19px;background:url(../img/zcjl.png) no-repeat -346px -108px;
+		position:absolute;right:12px;top:8px;z-index:5;}
+
+.yzm{display:inline-block;width:100px;height:36px;background:#ebfddf;padding-right:0;
+	margin:0 5px;font-size:20px;line-height:36px;font-style:italic;text-align:center;}
+
+.phoneyz .i{width:100px;height:16px;}
+.hqsjyz{width:108px;height:36px;border:1px solid #ddd;background:#f4f4f4;
+	text-align:center;font-size:12px;line-height:36px;margin-left:10px;cursor:pointer;}
+.hqsjyz:hover{color:red;}
+
+.xy a{color:red;}
+.xy a:hover{text-decoration:underline;}
+
+.sub input{width:270px;height:36px;font-weight:900;color:white;background:#e23c3e;cursor:pointer;}
+
+.bottomcon{height:68px;}
+.bottomcon p{font-size:12px;line-height:12px;color:#545454;padding-top:14px;text-align:center;}
